@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" />
+    <title>2024 Jin's bucket list</title>
+</head>
+<body class="bg-t5 center">
+    <h1 class="title-t5">Jin's 2024 Bucket List</h1>
+    <!-- 배경 음악 자동 재생 제거 및 재생 버튼 추가 -->
+    <audio id="bgm">
+      <source src="assets/sounds/bgm.mp3" type="audio/mpeg">
+    </audio>
+    <button id="playButton">Play Music</button>
+
+    <p class="msg">포기하지 않으면 하늘이 알아준다.</p>
+    <!-- 버킷 리스트 추가 섹션 -->
+    <div class="add-section">
+      <input type="text" id="newBucketContent" placeholder="내용을 입력하세요" />
+       <!-- 버킷 리스트 추가 버튼 -->
+      <div id="addBucket" class="button">
+        <img src="assets/images/Bucket_Plus.png" alt="Add Bucket"/>
+      </div>
+    </div>
+
+    <!-- 동적으로 버킷리스트 생성되는 영역 -->
+    <div class="flex-row wrap">
+  
+    </div>
+
+    <script src="main.js"></script>
+  </body> 
+</html>
